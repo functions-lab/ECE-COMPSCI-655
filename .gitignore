@@ -6,7 +6,8 @@
 */build/*
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -134,3 +135,7 @@ dkms.conf
 *.exe
 *.out
 *.app
+
+# ESP-IDF specific
+dependencies.lock
+managed_components/
